@@ -17,7 +17,7 @@ public:
 class triangle :public shapes {
 public:
     triangle(int s):shapes(s){
-        name = "Триугольник:";
+        name = "Треугольник:";
         if (side > 3 || side < 3) {
             side = 3;
         }
